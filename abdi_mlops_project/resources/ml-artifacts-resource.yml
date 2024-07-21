@@ -2,14 +2,14 @@
 common_permissions: &permissions
   permissions:
     - level: CAN_READ
-      group_name: "account users"
+      group_name: "dbdemos_ac_dataengineers"
 
 # Allow users to execute models in Unity Catalog
 grants: &grants
   grants:
     - privileges:
         - EXECUTE
-      principal: "account users"
+      principal: "dbdemos_ac_dataengineers"
 
 # Defines model and experiments
 resources:
