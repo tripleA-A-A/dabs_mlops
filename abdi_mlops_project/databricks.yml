@@ -13,7 +13,7 @@ variables:
 include:
   # Resources folder contains ML artifact resources for the ML project that defines model and experiment
   # And workflows resources for the ML project including model training -> validation -> deployment,
-  # batch inference, quality monitoring, metric refresh, alerts and triggering retraining
+  # batch inference, quality monitoring, metric refresh, alerts and trigge§ring retraining
   - ./resources/batch-inference-workflow-resource.yml
   - ./resources/ml-artifacts-resource.yml
   - ./resources/model-workflow-resource.yml
