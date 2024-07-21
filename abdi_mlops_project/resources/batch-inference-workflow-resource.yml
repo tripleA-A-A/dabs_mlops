@@ -9,7 +9,7 @@ new_cluster: &new_cluster
 common_permissions: &permissions
   permissions:
     - level: CAN_VIEW
-      group_name: users
+      group_name: "All account users"
 
 resources:
   jobs:

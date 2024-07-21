@@ -2,14 +2,14 @@
 common_permissions: &permissions
   permissions:
     - level: CAN_READ
-      group_name: users
+      group_name: "All account users"
 
 # Allow users to execute models in Unity Catalog
 grants: &grants
   grants:
     - privileges:
         - EXECUTE
-      principal: account users
+      principal: "All account users"
 
 # Defines model and experiments
 resources:
