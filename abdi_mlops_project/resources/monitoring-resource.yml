@@ -13,7 +13,7 @@ new_cluster: &new_cluster
 common_permissions: &permissions
   permissions:
     - level: CAN_VIEW
-      group_name: "All account users"
+      group_name: "account users"
 
 resources:
   quality_monitors:
@@ -80,4 +80,3 @@ resources:
       #    on_failure:
       #      - first@company.com
       #      - second@company.com
-
